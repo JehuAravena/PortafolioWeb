@@ -11652,6 +11652,20 @@ pre {
   color: #495057;
   align-items: baseline;
   flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+
+@media screen and (max-width: 768px) {
+  .header-left{
+    display: flex;
+    margin-left: 20px;
+    color: #495057;
+    align-items: baseline;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+  
 }
 
 .nombre {
@@ -11660,6 +11674,8 @@ pre {
   font-weight: bold;
   margin-bottom: 0;
 }
+
+
 
 .profession {
   display: flex;
