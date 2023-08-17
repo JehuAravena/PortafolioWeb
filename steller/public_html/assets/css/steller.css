@@ -11513,7 +11513,7 @@ pre {
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
       -ms-flex-align: end;
-          align-items: flex-end;
+          align-items: center;
   padding-left: 0px;
 }
 
@@ -11524,7 +11524,7 @@ pre {
           filter: drop-shadow(0 -4px 20px rgba(206, 212, 218, 0.4));
   margin-left: auto;
   margin-right: -2rem;
-  margin-bottom: 7rem;
+  /* margin-bottom: 7rem; */
 }
 
 @media (max-width: 991.98px) {
@@ -11648,14 +11648,22 @@ pre {
 
 .header-left {
   display: flex;
-  align-items: baseline;
-  margin-left: 20px; /* Agrega margen izquierdo */
+  margin-left: 20px; 
   color: #495057;
+  align-items: baseline;
+}
+
+.nombre {
+  font-size: calc(25px + .5vw);
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
 .profession {
+  display: flex;
+  flex-direction: column;
   margin-left: 10px;
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: calc(5px + .5vw);
   color: #6d7379;
 }
