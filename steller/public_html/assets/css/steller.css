@@ -4579,7 +4579,7 @@ input[type="button"].btn-block {
   display: flex;
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+          flex-wrap: nowrap;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
@@ -11651,9 +11651,11 @@ pre {
   margin-left: 20px; 
   color: #495057;
   align-items: baseline;
+  flex-wrap: wrap;
 }
 
 .nombre {
+  display: flex;
   font-size: calc(25px + .5vw);
   font-weight: bold;
   margin-bottom: 0;
@@ -11661,7 +11663,6 @@ pre {
 
 .profession {
   display: flex;
-  flex-direction: column;
   margin-left: 10px;
   margin-bottom: 0;
   font-size: calc(5px + .5vw);
