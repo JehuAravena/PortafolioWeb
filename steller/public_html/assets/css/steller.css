@@ -11665,8 +11665,6 @@ pre {
     flex-direction: column;
   }
 }
-  
-}
 
 .nombre {
   display: flex;
@@ -11674,8 +11672,6 @@ pre {
   font-weight: bold;
   margin-bottom: 0;
 }
-
-
 
 .profession {
   display: flex;
