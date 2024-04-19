@@ -53,7 +53,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $(".descargar").on("click", function () {
-    $("#descarga").attr("href", "../../mis imagenes/jehuaravena_github.pdf");
+    $("#descarga").attr("href", "../../mis imagenes/CV.pdf");
     $("#descarga")[0].click();
   });
 });
